@@ -6,7 +6,7 @@
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
         <version>3.57</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <artifactId>maven-artifact-choicelistprovider</artifactId>
@@ -94,7 +94,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.11.4</version>
+            <version>2.12.7.1</version>
         </dependency>
 
         <dependency>
@@ -169,7 +169,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
