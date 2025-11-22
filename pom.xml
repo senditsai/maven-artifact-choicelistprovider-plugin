@@ -6,7 +6,7 @@
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
         <version>3.57</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <artifactId>maven-artifact-choicelistprovider</artifactId>
@@ -70,12 +70,12 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>2.25.1</version>
+            <version>2.46</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.connectors</groupId>
             <artifactId>jersey-apache-connector</artifactId>
-            <version>2.25.1</version>
+            <version>2.46</version>
         </dependency>
 
         <!-- Necessary to parse the XML from Nexus Lucene Service -->
@@ -169,7 +169,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
