@@ -6,7 +6,7 @@
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
         <version>3.57</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <artifactId>maven-artifact-choicelistprovider</artifactId>
@@ -106,7 +106,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.19.0</version>
+            <version>3.27.7</version>
         </dependency>
     </dependencies>
 
@@ -169,7 +169,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
